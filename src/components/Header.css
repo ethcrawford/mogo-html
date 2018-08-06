@@ -1,0 +1,22 @@
+.___Header__root___ {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.___Header__content___ {
+  position: fixed;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.___Header__placeholder___ {
+  position: static;
+  padding: 0 0 24px;
+}
