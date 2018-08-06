@@ -14,9 +14,129 @@
   left: 0;
   z-index: 1000;
   width: 100%;
+  padding: 18px 0;
+
+  background: #e88783; /* TEMP:  */
+}
+
+.___Header__inner___ {
+  display: flex;
+  align-items: center;
+}
+
+.___Header__logo___ {
+  font: 700 30px/1.5 Montserrat, sans-serif;
+  margin: 0 30px 0 0;
+}
+
+.___Header__logoLink___ {
+  color: #fff;
+  text-decoration: none;
+}
+
+.___Header__logoLink___:hover,
+.___Header__logoLink___:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.___Header__nav___ {
+  margin: 0 0 0 auto;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .___Header__nav___ {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.___Header__navList___ {
+  margin: 0 50px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.5 Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.___Header__navItem___ {
+  margin: 0 50px 0 0;
+}
+
+.___Header__navItem___:last-child {
+  margin: 0;
+}
+
+.___Header__navLink___ {
+  color: #fff;
+  padding: 11px 0 8px;
+  border-bottom: 3px transparent solid;
+}
+
+.___Header__navLink___:hover,
+.___Header__navLink___:focus {
+  color: #fce38a;
+  text-decoration: none;
+  border-bottom: 3px #fce38a solid;
+}
+
+.___Header__controls___ {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.5 Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.___Header__controlsItem___ {
+  margin: 0 50px 0 0;
+}
+.___Header__controlsItem___:last-child {
+  margin: 0;
+}
+
+.___Header__controlsLink___ {
+  color: #fff;
+  padding: 11px 0 8px;
+  border-bottom: 3px transparent solid;
+}
+
+.___Header__controlsLink___:hover,
+.___Header__controlsLink___:focus {
+  color: #fce38a;
+  text-decoration: none;
+  border-bottom: 3px #fce38a solid;
+}
+
+.___Header__toggleContainer___ {
+  margin: 0 0 0 auto;
+}
+
+@media (min-width: 992px) {
+  .___Header__toggleContainer___ {
+    display: none;
+  }
+}
+
+.___Header__toggle___ {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+}
+
+.___Header__toggle___:hover,
+.___Header__toggle___:focus {
+  color: #fce38a;
 }
 
 .___Header__placeholder___ {
   position: static;
-  padding: 0 0 24px;
+  padding: 0 0 80px;
 }
