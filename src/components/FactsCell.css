@@ -1,0 +1,20 @@
+.___FactsCell__root___ {
+  border: 1px #b5eae0 solid;
+  background: #95e1d3;
+  padding: 59px 0 85px;
+}
+
+.___FactsCell__number___ {
+  font: 700 72px/1.5 Montserrat, sans-serif; /* 108 */
+  color: #fff;
+  text-align: center;
+  margin: 0 0 -5px 0;
+}
+
+.___FactsCell__text___ {
+  font: 400 14px/1.5 Montserrat, sans-serif; /* 21 */
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
