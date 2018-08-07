@@ -1,0 +1,20 @@
+.___SectionHeader__subtitle___ {
+  font: 400 24px/1.5 'Kaushan Script', sans-serif; /* 36 */
+  color: 333;
+  text-align: center;
+  margin: 0 0 4px;
+}
+
+.___SectionHeader__title___ {
+  font: 700 30px/1.5 Montserrat, sans-serif; /* 45 */
+  color: 333;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.___SectionHeader__decorLine___ {
+  width: 60px;
+  margin: 0 auto;
+  border-bottom: 3px #f38181 solid;
+}
