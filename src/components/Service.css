@@ -1,3 +1,31 @@
 .___Service__root___ {
   background: #fff;
+  padding: 103px 0 70px;
+}
+
+.___Service__header___ {
+  margin: 0 0 17px;
+}
+
+.___Service__cellContainer___ {
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.___Service__cellContainer___:nth-child(6) {
+  border-bottom-width: 0;
+}
+
+@media (min-width: 768px) {
+  .___Service__cellContainer___:nth-child(5),
+  .___Service__cellContainer___:nth-child(6) {
+    border-bottom-width: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .___Service__cellContainer___:nth-child(4),
+  .___Service__cellContainer___:nth-child(5),
+  .___Service__cellContainer___:nth-child(6) {
+    border-bottom-width: 0;
+  }
 }
