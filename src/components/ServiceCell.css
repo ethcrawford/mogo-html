@@ -5,15 +5,20 @@
   align-items: flex-start;
 }
 
-.___ServiceCell__iconContainer___ {
+.___ServiceCell__media___ {
   padding: 4px 0 0;
 }
 
-.___ServiceCell__icon___ {
+.___ServiceCell__iconContainer___ {
   margin: 0 28px 0 0;
   width: 34px;
   height: 34px;
-  background: #95e1d3;
+}
+
+.___ServiceCell__icon___ {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 .___ServiceCell__title___ {
